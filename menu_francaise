@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a524c9fae7.js" crossorigin="anonymous"></script>
+    <title>A la française</title>
+</head>
+<body>
+
+    <header>
+
+        <!-- Logo -->
+
+        <i class="fa-solid fa-arrow-left"></i>
+        <img src="" alt="">
+
+    </header>
+
+    <main>
+
+        <!-- Image -->
+
+        <div>
+            <img src="" alt="">
+        </div>
+
+        <!-- Menu -->
+
+        <div>
+            <div>
+                <h1>A la française</h1>
+                <i class="fa-regular fa-heart"></i>
+            </div>
+
+            <!-- Entrées-->
+
+            <div>
+                <div>
+                    <p>Entrées</p>
+                </div>
+
+                <ul>
+                    <li>
+                        <p>Tartare de poulpe acidulé</p>
+                        <p>Aux zests d'orange</p>
+                        <p>25€</p>
+                    </li>
+                    <li>
+                        <p>Velouté de légumes d'antan</p>
+                        <p>Carotte, panais, topinambour</p>
+                        <p>35€</p>
+                    </li>
+                    <li>
+                        <p>Soupe a l'oignon</p>
+                        <p>Revisitée</p>
+                        <p>20€</p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Plats -->
+
+            <div>
+                <div>
+                    <p>Plats</p>
+                </div>
+
+                <ul>
+                    <li>
+                        <p>Coquilles Saint-Jacques</p>
+                        <p>Accompagnées d'une purée de panais</p>
+                        <p>40€</p>
+                    </li>
+                    <li>
+                        <p>Magret de canard</p>
+                        <p>Et parmentier de pommes de terres</p>
+                        <p>35€</p>
+                    </li>
+                    <li>
+                        <p>Pigeonneau d'ille-et-Vilaine</p>
+                        <p>Sur son lit de gnocchis aux légumes</p>
+                        <p>44€</p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Desserts -->
+
+            <div>
+                <div>
+                    <p>Desserts</p>
+                </div>
+
+                <ul>
+                    <li>
+                        <p>Pétales de violettes glécés</p>
+                        <p>Et purée de noisettes</p>
+                        <p>18€</p>
+                    </li>
+                    <li>
+                        <p>Fondant au chocolat</p>
+                        <p>Revisité</p>
+                        <p>22€</p>
+                    </li>
+                    <li>
+                        <p>Millefeuille croustillant</p>
+                        <p>Myrtilles et pâte d'amande</p>
+                        <p>23€</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <button>Commander</button>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <!-- logo -->
+
+        <div>
+            <img src="" alt="">
+        </div>
+
+        <!-- Contact-->
+
+        <div>
+            <p>Proposer un restaurant</p>
+            <p>Devenir partenaire</p>
+            <p>Mentions légales</p>
+            <p>Contact</p>
+        </div>
+
+    </footer>
+    
+
+</body>
