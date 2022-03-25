@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+  --primaire: #9356DC;
+  --secondaire: #FF79DA;
+  --tertiaire: #99E2D0;
+}
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', arial;
+  font-weight: 400;
+}
+
+/*class reutiliser*/ 
+
+.display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 100%; 
+}
+
+.align {
+  padding: 50px 5% 50px 5%;
+  width: 100%;
+}
+
+.titre {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+/*LOGO */
+
+.logo {
+  background: white;
+  height: 60px; 
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+
+.logo img {
+  height: 30px;
+}
+
+/*LOCALISATION*/
+
+.localisation {
+  height: 45px;
+  background-color: rgb(231, 231, 231);
+  font-size: 16px;
+}
+
+.localisation i {
+  position: relative;
+  right: 15px;
+}
+
+/* EXPLORER */ 
+
+.explor {
+  height: 300px;
+  background-color: rgb(245, 245, 245);
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 40px 0 40px 0;
+}
+
+.explor h1 {
+  width: 70%;
+  font-size: 27px;
+}
+
+.explor p {
+  width: 90%;
+  font-size: 20px;
+  color: rgb(139, 139, 139);
+}
+
+.explor button {
+  background: linear-gradient(var(--secondaire), var(--primaire));
+  padding: 15px 22px 15px 22px;
+  border-radius: 30px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  font-weight: bold;
+  box-shadow: rgba(100, 100, 111, 0.2) 2px 2px 3px 0px;
+}
+
+/*FONCTIONNEMENT*/
+
+.fonctionnement {
+  height: 430px;
+}
+
+.fonctionnement ol {
+  list-style: none;
+  counter-reset: item;
+}
+
+.fonctionnement ol li {
+  counter-increment: item;
+  margin-bottom: 20px;
+  background-color: rgb(245, 245, 245);
+  padding: 30px 20px 30px 0px;
+  border-radius: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 2px 7px 5px 5px;
+}
+
+.fonctionnement ol li::before {
+  padding: 4px 9px 4px 9px ;
+  content: counter(item);
+  background: var(--primaire);
+  color: white;
+  border-radius: 100%;
+  text-align: center;
+  position: relative;
+  right: 10px;
+}
+
+.fonctionnement ol li p {
+  display: inline-block;
+
+}
+
+.fonctionnement ol li i {
+  display: inline-block;
+  color: grey;
+  height: 10px;
+  width: 10px;
+}
+
+
+/* RESTO */
+
+.resto {
+  background-color: rgb(245, 245, 245);
+}
+
+.conteneur {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.card {
+  width: 100%;
+  height: 270px;
+  border-radius: 25px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+.card-img {
+  overflow: hidden;
+  height: 190px;
+  position: relative;
+  border-radius: 15px 15px 0 0;
+}
+
+.card-img img {
+  width: 100%;
+  height: 190%;
+  margin-top: -100px;
+}
+
+.left {
+  display: inline-block;
+  width: 80%;
+  padding: 15px 10px 10px 15px;
+  color: black;
+  font-size: 18px;
+}
+
+.left h1 {
+  font-size: 19px;
+}
+
+.card-bottom i {
+  color: black;
+  display: inline-block;
+
+}
+
+
+
+/*# sourceMappingURL=header.css.map */

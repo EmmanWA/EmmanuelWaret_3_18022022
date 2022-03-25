@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scss/layout/pages.css">
+    <link rel="stylesheet" href="scss/layout/footer.css">
     <script src="https://kit.fontawesome.com/a524c9fae7.js" crossorigin="anonymous"></script>
     <title>Acceuil</title>
 </head>
@@ -13,23 +14,24 @@
         
         <!-- Logo -->
 
-        <div>
-            <h1>Titre av</h1>
+        <div class="logo  display">
+            <img src="img/logo/ohmyfood.png" alt="logo">
         </div>
 
         <!-- Localisation -->
 
-        <div>
+        <div class="localisation  display">
             <i class="fas fa-map-marker-alt"></i>
             <p>Paris, Belleville</p>
         </div>
+
     </header>
 
     <main>
 
         <!-- Explorer les Restaurant -->
         
-        <div>
+        <div class="explor display">
             <h1>Reservez le menu qui vous convient</h1>
             <p>Découvrer des restaurants d'exception, séléctionnés par nos soins.</p>
             <button>Explorer nos restaurants</button>
@@ -37,40 +39,41 @@
 
         <!-- Fonctionnement -->
 
-        <div>
-            <ul>
-                <li>
-                    <i class="fa-solid fa-mobile-screen-button"></i>
-                    <p>Choisissez un restaurant</p>
-                </li>
-                <li>
-                    <i class="fa-solid fa-list"></i>
-                    <p>Composez votre menu</p>
-                </li>
-                <li>
-                    <i class="fa-solid fa-store"></i>
-                    <p>Dégustez au restaurant</p>
-                </li>
-            </ul>
+        <div class="fonctionnement align">
+                <h1 class="titre">Fonctionnement</h1>
+                <ol>
+                    <li>
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <p>Choisissez un restaurant</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-list"></i>
+                        <p>Composez votre menu</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-store"></i>
+                        <p>Dégustez au restaurant</p>
+                    </li>
+                </ol>
 
         </div>
 
         <!-- Restaurant -->
 
-        <div>
+        <div class="resto align">
 
-            <h1>Restaurants</h1>
+            <h1 class="titre">Restaurants</h1>
 
-            <div>
+            <div class="conteneur">
 
                 <a href="#">
-                    <div>
-                        <div>
-                            <img src="" alt="">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="img/restaurants/jay-wennington.jpg" alt="palette du gout">
                         </div>
-                        <div>
-                            <div>
-                                <p>La palette du goût</p>
+                        <div class="card-bottom">
+                            <div class="left">
+                                <h1>La palette du goût</h1>
                                 <p>Ménilmontant</p>
                             </div>
                             <i class="fa-regular fa-heart"></i>
@@ -79,13 +82,13 @@
                 </a>
 
                 <a href="#">
-                    <div>
-                        <div>
-                            <img src="" alt="">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="img/restaurants/stil.jpg" alt="note enchantée">
                         </div>
-                        <div>
-                            <div>
-                                <p>La note enchantée</p>
+                        <div class="card-bottom">
+                            <div class="left">
+                                <h1>La note enchantée</h1>
                                 <p>Charonne</p>
                             </div>
                             <i class="fa-regular fa-heart"></i>
@@ -94,13 +97,13 @@
                 </a>
 
                 <a href="#">
-                    <div>
-                        <div>
-                            <img src="" alt="">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="img/restaurants/toa.jpg" alt="A la française">
                         </div>
-                        <div>
-                            <div>
-                                <p>A la française</p>
+                        <div class="card-bottom">
+                            <div class="left">
+                                <h1>A la française</h1>
                                 <p>Cité rouge</p>
                             </div>
                             <i class="fa-regular fa-heart"></i>
@@ -109,13 +112,13 @@
                 </a>
 
                 <a href="#">
-                    <div>
-                        <div>
-                            <img src="" alt="">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="img/restaurants/louis-hansel-shotsoflouis.jpg" alt="Délice des sens">
                         </div>
-                        <div>
-                            <div>
-                                <p>Le délice des sens</p>
+                        <div class="card-bottom">
+                            <div class="left">
+                                <h1>Le délice des sens</h1>
                                 <p>Folie-méricourt</p>
                             </div>
                             <i class="fa-regular fa-heart"></i>
@@ -128,22 +131,32 @@
 
     </main>
 
-    <footer>
+    <footer class="align foot">
 
         <!-- logo -->
 
-        <div>
-            
+        <div class="logo2">
+            <img src="img/logo/ohmyfood.png" alt="logo">
         </div>
 
         <!-- Contact-->
 
-        <div>
-            <p>Proposer un restaurant</p>
-            <p>Devenir partenaire</p>
-            <p>Mentions légales</p>
-            <p>Contact</p>
-        </div>
+        <ul class="contact">
+            <li>
+                <i class="fa-solid fa-utensils"></i>
+                <p>Proposer un restaurant</p>
+            </li>
+            <li>
+                <i class="fa-solid fa-handshake-angle"></i>
+                <p>Devenir partenaire</p>
+            </li>
+            <li>
+                <p>Mentions légales</p>
+            </li>
+            <li>
+                <p>Contact</p>
+            </li>
+        </ul>
 
     </footer>
     
