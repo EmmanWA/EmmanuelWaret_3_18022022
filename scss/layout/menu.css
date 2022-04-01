@@ -1,0 +1,119 @@
+
+
+
+/*LOGO */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%; 
+}
+
+.logo {
+    background: white;
+    height: 50px; 
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+  
+.logo img {
+    height: 30px;
+}
+
+/*IMAGE*/
+
+.image {
+    width: 100%;
+}
+
+.image img {
+    width: 100%;
+}
+
+/*TITRE*/
+
+.restaurant {
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.restaurant h1 {
+    font-style: italic;
+    font-family: 'Shrikhand';
+    font-weight: 400;
+}
+
+/*MENU*/
+
+.gnd_ctn {
+    background-color: rgb(245, 245, 245);
+    padding-top: 0px;
+    border-radius: 35px 35px 0 0;
+    padding: 32px 5% 20px 5%;
+    position: relative;
+    top: -50px;
+}
+
+.ctn {
+    margin-bottom: 15px;
+}
+
+.indic {
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 3px var(--tertiaire) solid;
+}
+
+.ctn ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ctn ul li {
+    background-color: white;
+    width: 100%;
+    border-radius: 15px;
+    padding: 13px 20px 13px 10px;
+    margin-bottom: 13px;
+    box-shadow: rgba(100, 100, 111, 0.2) 2px 2px 3px 0px;
+}
+
+.ennonce {
+    display: inline-block;
+    width: 90%;
+}
+
+.ennonce h2 {
+    font-size: 18px;
+    padding-bottom: 3px;
+}
+
+
+.prix {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.commande {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.commande button {
+    background: linear-gradient(var(--secondaire), var(--primaire));
+    padding: 15px 45px 15px 45px;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    box-shadow: rgba(100, 100, 111, 0.2) 2px 2px 5px 0px;
+}

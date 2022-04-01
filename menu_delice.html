@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scss/layout/pages.css">
+    <link rel="stylesheet" href="scss/layout/footer.css">
+    <link rel="stylesheet" href="scss/layout/menu.css">
     <script src="https://kit.fontawesome.com/a524c9fae7.js" crossorigin="anonymous"></script>
     <title>Le délice des sens</title>
 </head>
@@ -13,9 +15,10 @@
     <header>
 
         <!-- Logo -->
-
-        <i class="fa-solid fa-arrow-left"></i>
-        <img src="" alt="">
+        <div class="logo display">
+            <i class="fa-solid fa-arrow-left"></i>
+            <img src="img/logo/ohmyfood.png" alt="logo">
+        </div>
 
     </header>
 
@@ -23,120 +26,152 @@
 
         <!-- Image -->
 
-        <div>
-            <img src="" alt="">
+        <div class="image">
+            <img src="img/restaurants/louis-hansel-shotsoflouis.jpg" alt="A la française">
         </div>
 
-        <!-- Menu -->
 
-        <div>
-            <div>
+
+        <!-- Menu -->
+        
+                
+        <div class="gnd_ctn">
+            
+            <div class="restaurant display ">
                 <h1>Le délice des sens</h1>
                 <i class="fa-regular fa-heart"></i>
             </div>
 
-            <!-- Entrées-->
+                        <!-- Entrées-->
 
-            <div>
-                <div>
-                    <p>Entrées</p>
+            <div class="ctn">
+                <div class="indic">
+                    <p>ENTRÉES</p>
                 </div>
 
                 <ul>
                     <li>
-                        <p>Tartare de thon</p>
-                        <p>Assaisonné de yuzu</p>
-                        <p>25€</p>
+                        <div class="ennonce">
+                            <h2>Tartare de thon</h2>
+                            <p>Assaisonné au yuzu</p>
+                        </div>
+                        <p class="prix">25€</p>
                     </li>
                     <li>
-                        <p>Bouchée de homard croustillant</p>
-                        <p>Et sa farandole de petits légumes</p>
-                        <p>35€</p>
+                        <div class="ennonce">
+                            <h2>Bouchée de homard croustillant</h2>
+                            <p>Et sa farandole de petits légumes</p>
+                        </div>
+                        <p class="prix">35€</p>
                     </li>
                     <li>
-                        <p>Velouté de cèpes</p>
-                        <p>Aux truffes</p>
-                        <p>20€</p>
+                        <div class="ennonce">
+                            <h2>Velouté de cèpes</h2>
+                            <p>Aux truffes</p>
+                        </div>
+                        <p class="prix">20€</p>
                     </li>
                 </ul>
             </div>
 
             <!-- Plats -->
 
-            <div>
-                <div>
-                    <p>Plats</p>
+            <div class="ctn">
+                <div class="indic">
+                    <p>PLATS</p>
                 </div>
 
                 <ul>
                     <li>
-                        <p>Poulet rôti aux herbes de provance</p>
-                        <p>Et sa crème de truffe</p>
-                        <p>40€</p>
+                        <div class="ennonce">
+                            <h2>Poulet rôti aux herbes de Provence</h2>
+                            <p>Et sa crème de truffe</p>
+                        </div>
+                        <p class="prix">40€</p>
                     </li>
                     <li>
-                        <p>Langoustine rôtie</p>
-                        <p>Et ses légumes de saison</p>
-                        <p>35€</p>
+                        <div class="ennonce">
+                            <h2>Langouste rôtie</h2>
+                            <p>Et ses légumes de saison</p>
+                        </div>
+                        <p class="prix">35€</p>
                     </li>
                     <li>
-                        <p>Côte de boeuf angus</p>
-                        <p>Et sa purée de panais</p>
-                        <p>44€</p>
+                        <div class="ennonce">
+                            <h2>Côte de boeuf Angus</h2>
+                            <p>Et sa purée de panais</p>
+                        </div>
+                        <p class="prix">44€</p>
                     </li>
                 </ul>
             </div>
 
             <!-- Desserts -->
 
-            <div>
-                <div>
-                    <p>Desserts</p>
+            <div class="ctn">
+                <div class="indic">
+                    <p>DESSERTS</p>
                 </div>
 
                 <ul>
                     <li>
-                        <p>Farandole de desserts</p>
-                        <p>Du chef</p>
-                        <p>18€</p>
+                        <div class="ennonce">
+                            <h2>Farandole de desserts</h2>
+                            <p>Du chef</p>
+                        </div>
+                        <p class="prix">18€</p>
                     </li>
                     <li>
-                        <p>Crème brulée</p>
-                        <p>Revisitée</p>
-                        <p>22€</p>
+                        <div class="ennonce">
+                            <h2>Crème brulée</h2>
+                            <p>Revisitée</p>
+                        </div>
+                        <p class="prix">22€</p>
                     </li>
                     <li>
-                        <p>Tiramisu</p>
-                        <p>A la noisette</p>
-                        <p>23€</p>
+                        <div class="ennonce">
+                            <h2>Tiramisu</h2>
+                            <p>À la noisette</p>
+                        </div>
+                        <p class="prix">23€</p>
                     </li>
                 </ul>
             </div>
 
-            <div>
-                <button>Commander</button>
+            <div class="commande">
+                <button class="bttn">Commander</button>
             </div>
 
         </div>
 
     </main>
 
-    <footer>
+    <footer class="align foot">
 
         <!-- logo -->
 
-        <div>
-            <img src="" alt="">
+        <div class="logo2">
+            <img src="img/logo/ohmyfood.png" alt="logo">
         </div>
 
         <!-- Contact-->
 
-        <div>
-            <p>Proposer un restaurant</p>
-            <p>Devenir partenaire</p>
-            <p>Mentions légales</p>
-            <p>Contact</p>
-        </div>
+        <ul class="contact">
+            <li>
+                <i class="fa-solid fa-utensils"></i>
+                <p>Proposer un restaurant</p>
+            </li>
+            <li>
+                <i class="fa-solid fa-handshake-angle"></i>
+                <p>Devenir partenaire</p>
+            </li>
+            <li>
+                <p>Mentions légales</p>
+            </li>
+            <li>
+                <p>Contact</p>
+            </li>
+        </ul>
 
     </footer>
     

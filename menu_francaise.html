@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="scss/layout/.css">
+    <link rel="stylesheet" href="scss/layout/pages.css">
     <link rel="stylesheet" href="scss/layout/footer.css">
+    <link rel="stylesheet" href="scss/layout/menu.css">
     <script src="https://kit.fontawesome.com/a524c9fae7.js" crossorigin="anonymous"></script>
     <title>A la française</title>
 </head>
@@ -14,9 +15,10 @@
     <header>
 
         <!-- Logo -->
-
-        <i class="fa-solid fa-arrow-left"></i>
-        <img src="img/logo/ohmyfood.png" alt="logo">
+        <div class="logo display">
+            <i class="fa-solid fa-arrow-left"></i>
+            <img src="img/logo/ohmyfood.png" alt="logo">
+        </div>
 
     </header>
 
@@ -24,122 +26,153 @@
 
         <!-- Image -->
 
-        <div>
-            <img src="" alt="">
+        <div class="image">
+            <img src="img/restaurants/toa.jpg" alt="A la française">
         </div>
 
-        <!-- Menu -->
 
-        <div>
-            <div>
+
+        <!-- Menu -->
+        
+                
+        <div class="gnd_ctn">
+            
+            <div class="restaurant display ">
                 <h1>A la française</h1>
                 <i class="fa-regular fa-heart"></i>
             </div>
 
-            <!-- Entrées-->
+                        <!-- Entrées-->
 
-            <div>
-                <div>
-                    <p>Entrées</p>
+            <div class="ctn">
+                <div class="indic">
+                    <p>ENTRÉES</p>
                 </div>
 
                 <ul>
                     <li>
-                        <p>Tartare de poulpe acidulé</p>
-                        <p>Aux zests d'orange</p>
-                        <p>25€</p>
+                        <div class="ennonce">
+                            <h2>Tartare de poulpe acidulé</h2>
+                            <p>Aux zests d'orange</p>
+                        </div>
+                        <p class="prix">25€</p>
                     </li>
                     <li>
-                        <p>Velouté de légumes d'antan</p>
-                        <p>Carotte, panais, topinambour</p>
-                        <p>35€</p>
+                        <div class="ennonce">
+                            <h2>Velouté de légumes d'antan</h2>
+                            <p>Carotte, panais, topinambour</p>
+                        </div>
+                        <p class="prix">35€</p>
                     </li>
                     <li>
-                        <p>Soupe a l'oignon</p>
-                        <p>Revisitée</p>
-                        <p>20€</p>
+                        <div class="ennonce">
+                            <h2>Soupe a l'oignon</h2>
+                            <p>Revisitée</p>
+                        </div>
+                        <p class="prix">20€</p>
                     </li>
                 </ul>
             </div>
 
             <!-- Plats -->
 
-            <div>
-                <div>
-                    <p>Plats</p>
+            <div class="ctn">
+                <div class="indic">
+                    <p>PLATS</p>
                 </div>
 
                 <ul>
                     <li>
-                        <p>Coquilles Saint-Jacques</p>
-                        <p>Accompagnées d'une purée de panais</p>
-                        <p>40€</p>
+                        <div class="ennonce">
+                            <h2>Coquilles Saint-Jacques</h2>
+                            <p>Accompagnées d'une purée de panais</p>
+                        </div>
+                        <p class="prix">40€</p>
                     </li>
                     <li>
-                        <p>Magret de canard</p>
-                        <p>Et parmentier de pommes de terres</p>
-                        <p>35€</p>
+                        <div class="ennonce">
+                            <h2>Magret de canard</h2>
+                            <p>Et parmentier de pommes de terres</p>
+                        </div>
+                        <p class="prix">35€</p>
                     </li>
                     <li>
-                        <p>Pigeonneau d'ille-et-Vilaine</p>
-                        <p>Sur son lit de gnocchis aux légumes</p>
-                        <p>44€</p>
+                        <div class="ennonce">
+                            <h2>Pigeonneau d'ille-et-Vilaine</h2>
+                            <p>Sur son lit de gnocchis aux légumes</p>
+                        </div>
+                        <p class="prix">44€</p>
                     </li>
                 </ul>
             </div>
 
             <!-- Desserts -->
 
-            <div>
-                <div>
-                    <p>Desserts</p>
+            <div class="ctn">
+                <div class="indic">
+                    <p>DESSERTS</p>
                 </div>
 
                 <ul>
                     <li>
-                        <p>Pétales de violettes glécés</p>
-                        <p>Et purée de noisettes</p>
-                        <p>18€</p>
+                        <div class="ennonce">
+                            <h2>Pétales de violettes glécés</h2>
+                            <p>Et purée de noisettes</p>
+                        </div>
+                        <p class="prix">18€</p>
                     </li>
                     <li>
-                        <p>Fondant au chocolat</p>
-                        <p>Revisité</p>
-                        <p>22€</p>
+                        <div class="ennonce">
+                            <h2>Fondant au chocolat</h2>
+                            <p>Revisité</p>
+                        </div>
+                        <p class="prix">22€</p>
                     </li>
                     <li>
-                        <p>Millefeuille croustillant</p>
-                        <p>Myrtilles et pâte d'amande</p>
-                        <p>23€</p>
+                        <div class="ennonce">
+                            <h2>Millefeuille croustillant</h2>
+                            <p>Myrtilles et pâte d'amande</p>
+                        </div>
+                        <p class="prix">23€</p>
                     </li>
                 </ul>
             </div>
 
-            <div>
-                <button>Commander</button>
+            <div class="commande">
+                <button class="bttn">Commander</button>
             </div>
 
         </div>
 
     </main>
 
-    <footer>
+    <footer class="align foot">
 
         <!-- logo -->
 
-        <div>
-            <img src="" alt="">
+        <div class="logo2">
+            <img src="img/logo/ohmyfood.png" alt="logo">
         </div>
 
         <!-- Contact-->
 
-        <div>
-            <p>Proposer un restaurant</p>
-            <p>Devenir partenaire</p>
-            <p>Mentions légales</p>
-            <p>Contact</p>
-        </div>
+        <ul class="contact">
+            <li>
+                <i class="fa-solid fa-utensils"></i>
+                <p>Proposer un restaurant</p>
+            </li>
+            <li>
+                <i class="fa-solid fa-handshake-angle"></i>
+                <p>Devenir partenaire</p>
+            </li>
+            <li>
+                <p>Mentions légales</p>
+            </li>
+            <li>
+                <p>Contact</p>
+            </li>
+        </ul>
 
     </footer>
-    
 
 </body>
