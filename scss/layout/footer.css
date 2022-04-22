@@ -18,10 +18,22 @@
   }
   
   .contact p {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
   }
   
   .contact i {
     color: white;
   }
   
+  .contact li {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .fa-handshake-angle {
+    margin-right: 10px;
+  }
+
+  .fa-utensils {
+    margin-right: 15px;
+  }
