@@ -7,11 +7,16 @@
         <link rel="stylesheet" href="css/pages.css">
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/desktop.css">
+        <link rel="stylesheet" href="css/animation.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <title>Accueil</title>
     </head>
-<body>
+<body >
+
+    <div class="spinner"></div>
+    <div class="loader">
+        
     <header>
         
         <!-- Logo -->
@@ -68,10 +73,10 @@
 
             <div class="conteneur">
 
-                <a href="menu_palette.html">
                     <div class="card">
+                        
                         <div class="card-img">
-                            <img src="img/restaurants/jay-wennington.jpg" alt="palette du gout">
+                            <a href="menu_palette.html"><img src="img/restaurants/jay-wennington.jpg" alt="palette du gout"></a>
                         </div>
                         <div class="card-bottom">
                             <div class="left">
@@ -81,7 +86,6 @@
                             <i class="fa-regular fa-heart"></i>
                         </div>
                     </div>
-                </a>
 
                 <a href="menu_note.html">
                     <div class="card">
@@ -156,11 +160,13 @@
                 <p>Mentions légales</p>
             </li>
             <li>
-                <p>Contact</p>
+                <a href="mailto:ohmyfood@mail.com"><p>Contact</p></a>
             </li>
         </ul>
 
     </footer>
+
+</div>
     
 </body>
 </html>

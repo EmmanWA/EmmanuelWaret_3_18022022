@@ -50,6 +50,7 @@ body {
   height: 60px; 
   margin-top: 15px;
   padding-bottom: 10px;
+  box-shadow: 1px 10px 7px black;
 }
 
 .logo img {
@@ -60,6 +61,7 @@ body {
 /*LOCALISATION*/
 
 .localisation {
+  
   height: 45px;
   background-color: rgb(231, 231, 231);
   font-size: 16px;
@@ -169,6 +171,7 @@ body {
 }
 
 .card {
+  
   width: 100%;
   height: 270px;
   border-radius: 25px;
@@ -185,6 +188,7 @@ body {
 }
 
 .card-img img {
+  cursor: pointer;
   width: 100%;
   height: 190%;
   margin-top: -100px;
@@ -202,10 +206,16 @@ body {
   font-size: 19px;
 }
 
-.card-bottom i {
-  color: black;
-  display: inline-block;
 
+.fa-heart {
+  margin-left: 20px;
+  font-size: 25px;
+  color: black;
+ 
+}
+
+.fa-heart:active {
+  color: #9356DC;
 }
 
 

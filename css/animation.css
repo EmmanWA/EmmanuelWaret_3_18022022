@@ -1,0 +1,110 @@
+/* Animation Index */
+
+@keyframes spinner {
+    to {transform: rotate(360deg);}
+  }
+   
+  .spinner::before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    border-top-color: #000;
+    animation: spinner 2.5s linear, disparition 1s ;
+    opacity: 0;
+  }
+
+
+  @keyframes disparition {
+    0% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
+    
+}
+
+
+  .loader {
+    animation-delay: 3s;
+    animation: oppaque 1s;
+  }
+
+  @keyframes oppaque {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+    
+}
+
+
+
+  /* Animation Menu*/
+
+@keyframes apparition {
+    0% {
+        opacity: 0%;
+        transform: translateY(80%) ;
+
+    }
+
+    100% {
+        opacity: 100%;
+        transform: translateY(0%) ;
+
+    }
+    
+}
+
+.delay1 {
+    animation: apparition 1s;
+}
+
+.slider:hover .square {
+    margin-right: 0%;
+    transition: margin-right 1s;
+    transform: translateX(0);
+}
+
+.slider:hover .fa-circle-check {
+    animation: rotation 1s;
+}
+
+.delay2 {
+    animation: apparition 1s;
+    animation-delay: 0.2s;
+}
+
+.delay3 {
+    animation: apparition 1s;
+    animation-delay: 0.4s;
+}
+
+.delay4 {
+    animation: apparition 1s;
+    animation-delay: 0.6s;
+}
+
+
+/*rotation */ 
+
+@keyframes rotation {
+    0% {
+        transform: rotate(-180deg) ;
+    }
+    100% {
+        transform: rotate(0deg) ;    }
+}
