@@ -102,6 +102,7 @@ header {
 .ennonce {
     width: 90%;
     text-overflow: ellipsis;
+    white-space: nowrap;
     padding: 13px 20px 13px 10px;
 }
 
@@ -114,28 +115,25 @@ header {
     width: 10%;
     font-weight: bold;
     margin-top: 22px;
-    padding: 13px 20px 13px 10px;
+    padding: 13px 20px 13px 3px;
 }
 
-.squarre {
+.square {
     width: 20%;
     background-color: var(--tertiaire);
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: -20%;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
 }
 
 .fa-circle-check {
     color: white;
+    font-size: 25px;
 }
-
-.fa-circle-check:hover{
-    animation: rotation 1s;
-}
-
-
-
 
 
  
@@ -177,6 +175,16 @@ header {
 
 .delay1 {
     animation: apparition 1s;
+}
+
+.slider:hover .square {
+    margin-right: 0%;
+    transition: margin-right 1s;
+    transform: translateX(0);
+}
+
+.slider:hover .fa-circle-check {
+    animation: rotation 1s;
 }
 
 .delay2 {
