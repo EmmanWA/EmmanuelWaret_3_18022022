@@ -230,8 +230,8 @@ body {
 }
 
 .fa-heart:active {
-  background: linear-gradient(var(--secondaire), var(--primaire));
-  /*color: #9356DC;*/
+  /*background: linear-gradient(var(--secondaire), var(--primaire));*/
+  color: #9356DC;
 }
 
 
