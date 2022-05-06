@@ -38,4 +38,8 @@
     .note {
         height: 500px;
     }
+
+    .green-line {
+        width: 5%;
+    }
 }

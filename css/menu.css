@@ -79,9 +79,17 @@ header {
 .indic {
     font-size: 17px;
     margin-top: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+}
+
+.green-line {
+    width: 7%;
+    background-color: var(--tertiaire);
+    height: 3px;
+    margin-top: 2px;
     margin-bottom: 15px;
-    padding-bottom: 5px;
-    border-bottom: 3px var(--tertiaire) solid;
+    padding-bottom: 2px;
 }
 
 .ctn ul {
