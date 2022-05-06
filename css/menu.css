@@ -34,6 +34,10 @@ header {
     width: 100%;
 }
 
+.note {
+    height: 300px;
+}
+
 .image img {
     width: 100%;
 }
@@ -115,6 +119,7 @@ header {
 
 .ennonce p {
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .prix {
@@ -162,3 +167,6 @@ header {
     box-shadow: rgba(100, 100, 111, 0.2) 2px 2px 5px 0px;
 }
 
+.commande button:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 5px 2px 7px 5px;
+}

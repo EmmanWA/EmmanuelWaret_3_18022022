@@ -26,4 +26,16 @@
         height: 360px;
     }
 
+    /*menu*/
+
+    .fa-arrow-left{
+        position: absolute;
+        left: 25%;
+        font-size: 20px;
+        top: 15px;
+    }
+
+    .note {
+        height: 500px;
+    }
 }

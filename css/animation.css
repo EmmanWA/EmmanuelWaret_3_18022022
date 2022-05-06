@@ -4,7 +4,7 @@
     to {transform: rotate(360deg);}
   }
    
-  .spinner::before {
+  .spinner {
     content: '';
     box-sizing: border-box;
     position: absolute;
@@ -34,9 +34,9 @@
 }
 
 
-  .loader {
-    animation-delay: 3s;
-    animation: oppaque 1s;
+  .loader { 
+    animation-delay: 3s ;
+    animation: oppaque 4s ;
   }
 
   @keyframes oppaque {
