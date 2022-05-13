@@ -81,6 +81,9 @@
 
 .slider:hover .fa-circle-check {
     animation: rotation 1s;
+}.lock:hover .icon-lock {
+    display: inline;
+    color:  var(--primaire);
 }
 
 .delay2 {
@@ -107,4 +110,21 @@
     }
     100% {
         transform: rotate(0deg) ;    }
+}
+
+/* Heart*/
+
+.lock:hover .icon-lock {
+    display: inline;
+    color:  var(--primaire);
+    animation: bigger 1.5s;
+}
+
+@keyframes bigger {
+    0% {
+        transform: scale(0.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }

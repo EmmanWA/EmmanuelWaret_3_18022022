@@ -26,6 +26,11 @@
         height: 360px;
     }
 
+    .left {
+        width: 90%;
+      }
+      
+
     /*menu*/
 
     .fa-arrow-left{

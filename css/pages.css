@@ -221,17 +221,17 @@ body {
   font-size: 19px;
 }
 
+/* Heart */
 
-.fa-heart{
-  margin-left: 20px;
-  font-size: 25px;
+.fa-heart {
+  height: 25px;
   color: black;
-  overflow: hidden;
 }
 
-.fa-heart:active {
-  /*background: linear-gradient(var(--secondaire), var(--primaire));*/
-  color: #9356DC;
+
+.lock:hover .icon-unlock,
+.lock .icon-lock {
+    display: none;
 }
 
 
